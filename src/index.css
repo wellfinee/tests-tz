@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+  /* FONTS */
+
+  --font-header: "Montserrat", sans-serif;
+  --font-header-weight: 700;
+  --font-header2-weight: 600;
+
+  --font-all: "Roboto", sans-serif;
+  --font-all-weight: 400;
+
+  /* FONT SIZE`s */
+
+  --small-text-size: 12px;
+  --normal-text-size: 14px;
+  --prebig-text-size: 18px;
+  --big-text-size: 26px;
+
+  /* COLORS */
+
+  --color-id-site-1: #E14165;
+  --color-id-site-2: #C2C2FF;
+  --color-id-site-3: #8686FF;
+
+  --button-success-bg: #2EE5AC;
+  --botton-normal-bg: #7D7D7D;
+
+  --properties-text-color: #5C5C5C;
+  --name-text-color: #474747;
+  --tab-text-color: #999999;
+  --message-text-color: #222222;
+
+  --ONLINE-text-color: #1BDA9D;
+  --PAUSED-text-color: #FF8346;
+  --STOPPED-text-color: #FE4848;
+  --DRAFT-text-color: #5C5C5C;
+
+  --secondary-color:#D1D1D1;
+
+  --main-background-color: #FAFAFA;
+  --item-background-color: #FFFFFF;
+  --border-input-color: #EBEBEB;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-all);
+  font-size: var(--normal-text-size);
+}
+
+.monserrat{
+  font-family: var(--font-header);
+}
+
+.roboto{
+  font-family: var(--font-all);
+  font-weight: var(--font-all-weight);
+}
+
+.weight-header{
+  font-weight: var(--font-header-weight);
+}
+
+.weight-header2{
+  font-weight: var(--font-header2-weight);
+}
+
+body{
+  background-color: var(--main-background-color);
+  padding: 41px  48px;
+}
